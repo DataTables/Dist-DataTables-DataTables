@@ -5,13 +5,13 @@
     ],
     "js": [],
     "images": [
-    	"images/sort_asc_disabled.png",
-    	"images/sort_asc.png",
-    	"images/sort_both.png",
-    	"images/sort_desc_disabled.png",
-    	"images/sort_desc.png"
+        "images/sort_asc_disabled.png",
+        "images/sort_asc.png",
+        "images/sort_both.png",
+        "images/sort_desc_disabled.png",
+        "images/sort_desc.png"
     ],
     "src-repo": "http://github.com/DataTables/DataTablesSrc",
-    "last-sync": "81f36b4f2a0ba1eda743fe961dd7456fee06b66f",
+    "last-sync": "28b728bd8c6913101520dc48d74f77a670b63b57",
     "last-tag": "1.10.9"
 }
