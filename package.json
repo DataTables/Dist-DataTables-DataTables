@@ -10,6 +10,7 @@
         "images/sort_desc.png",
         "images/sort_desc_disabled.png"
     ],
+    "style": "css/jquery.dataTables.css",
     "keywords": [
         "filter",
         "sort",
