@@ -3,12 +3,7 @@
     "version": "1.10.16",
     "description": "DataTables for jQuery ",
     "files": [
-        "css/jquery.dataTables.css",
-        "images/sort_asc.png",
-        "images/sort_asc_disabled.png",
-        "images/sort_both.png",
-        "images/sort_desc.png",
-        "images/sort_desc_disabled.png"
+        "css/**/*.css"
     ],
     "style": "css/jquery.dataTables.css",
     "keywords": [
