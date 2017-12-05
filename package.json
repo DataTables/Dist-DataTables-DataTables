@@ -6,6 +6,7 @@
         "css/**/*.css"
     ],
     "style": "css/jquery.dataTables.css",
+    "main": "index.js",
     "keywords": [
         "filter",
         "sort",
