@@ -3,9 +3,10 @@
     "version": "1.10.16",
     "description": "DataTables for jQuery ",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
-    "style": "css/jquery.dataTables.css",
+    "style": "css/dataTables.dataTables.css",
     "keywords": [
         "filter",
         "sort",
@@ -28,5 +29,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-DataTables.git"
-    }
+    },
+    "main": "js/dataTables.dataTables.js"
 }
