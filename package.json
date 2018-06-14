@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-dt",
-    "version": "1.10.17",
+    "version": "1.10.18",
     "description": "DataTables for jQuery ",
     "files": [
         "css/**/*.css",
@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net": "1.10.17"
+        "datatables.net": "1.10.18"
     },
     "repository": {
         "type": "git",
