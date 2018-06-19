@@ -4,7 +4,8 @@
     "description": "DataTables for jQuery ",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "images/*"
     ],
     "style": "css/dataTables.dataTables.css",
     "keywords": [
