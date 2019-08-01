@@ -7,7 +7,7 @@
         "js/**/*.js",
         "images/*"
     ],
-    "style": "css/dataTables.dataTables.css",
+    "style": "css/jquery.dataTables.css",
     "keywords": [
         "filter",
         "sort",
