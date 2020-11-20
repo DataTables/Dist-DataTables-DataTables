@@ -12,7 +12,6 @@
         <dependencies>
             <dependency id="jquery" version="1.7.0"/>
             <dependency id="datatables.net" version="1.10.15"/>
-            <dependency id="datatables" version="1.10.15"/>
         </dependencies>
     </metadata>
     <files>
