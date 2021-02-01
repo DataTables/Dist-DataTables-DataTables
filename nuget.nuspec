@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>datatables.net-dt</id>
-        <version>1.10.21</version>
+        <version>1.10.23</version>
         <description>DataTables integration for DataTables</description>
         <authors>SpryMedia Ltd</authors>
         <projectUrl>http://datatables.net</projectUrl>
@@ -11,14 +11,13 @@
         <repository type="git" url="https://github.com/DataTables/Dist-DataTables-DataTables.git"/>
         <dependencies>
             <dependency id="jquery" version="1.7.0"/>
-            <dependency id="datatables.net" version="1.10.15"/>
-            <dependency id="datatables" version="1.10.15"/>
+            <dependency id="datatables.net" version="1.10.23"/>
         </dependencies>
     </metadata>
     <files>
-        <file src="js/datatables.datatables.js"/>
-        <file src="js/datatables.datatables.min.js"/>
-        <file src="css/datatables.datatables.css"/>
-        <file src="css/datatables.datatables.min.css"/>
+        <file src="js/dataTables.dataTables.js"/>
+        <file src="js/dataTables.dataTables.min.js"/>
+        <file src="css/jquery.dataTables.css"/>
+        <file src="css/jquery.dataTables.min.css"/>
     </files>
 </package>
