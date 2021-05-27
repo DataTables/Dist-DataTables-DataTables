@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-dt</id>
-    <version>1.10.24</version>
-    <description>DataTables integration for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags> DataTables jQuery table DataTables</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-DataTables.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.23"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/dataTables.dataTables.js" target="content\Scripts"/>
-    <file src="js/dataTables.dataTables.min.js" target="content\Scripts"/>
-    <file src="css/jquery.dataTables.css" target="content\Content"/>
-    <file src="css/jquery.dataTables.min.css" target="content\Content"/>
-    <file src="js/dataTables.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/dataTables.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/jquery.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/jquery.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.10.24</version>
+        <id>datatables.net-dt</id>
+        <description>This is DataTables with styling for [DataTables](https://datatables.net/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-DataTables.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags> Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/dataTables.dataTables.js" target="content\Scripts"/>
+        <file src="js/dataTables.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/dataTables.dataTables.min.js" target="content\Scripts"/>
+        <file src="js/dataTables.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/jquery.dataTables.css" target="content\Content"/>
+        <file src="css/jquery.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/jquery.dataTables.min.css" target="content\Content"/>
+        <file src="css/jquery.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/dataTables.dataTables.d.ts" target="content\Scripts"/>
+        <file src="types/dataTables.dataTables.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

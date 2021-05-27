@@ -1,20 +1,15 @@
 {
-    "css": [
-        "css/jquery.dataTables.css",
-        "css/jquery.dataTables.min.css"
-    ],
     "js": [
         "js/dataTables.dataTables.js",
         "js/dataTables.dataTables.min.js"
     ],
-    "images": [
-        "images/sort_asc_disabled.png",
-        "images/sort_asc.png",
-        "images/sort_both.png",
-        "images/sort_desc_disabled.png",
-        "images/sort_desc.png"
+    "css": [
+        "css/jquery.dataTables.css",
+        "css/jquery.dataTables.min.css"
+    ],
+    "types": [
+        "types/dataTables.dataTables.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/DataTablesSrc",
-    "last-sync": "a65a9d1d39d7ad187f4050e29285a1de7d793e87",
     "last-tag": "1.10.24"
 }
