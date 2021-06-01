@@ -18,9 +18,15 @@ For inclusion of this library using a standard `<script>` tag, rather than using
 npm install datatables.net-dt
 ```
 
+ES3 Syntax
 ```
 var $ = require( 'jquery' );
 require( 'datatables.net-dt' )( window, $ );
+```
+
+ES6 Syntax
+```
+import 'datatables.net-dt'
 ```
 
 ### bower
