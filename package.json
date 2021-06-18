@@ -4,7 +4,7 @@
     "main": "js/dataTables.dataTables.js",
     "style": "css/jquery.dataTables.css",
     "types": "./types/dataTables.dataTables.d.ts",
-    "version": "1.10.26-dev",
+    "version": "1.10.25",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -18,7 +18,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net": ">=1.10.26-dev",
+        "datatables.net": ">=1.10.25",
         "jquery": ">=1.7"
     },
     "moduleType": [
