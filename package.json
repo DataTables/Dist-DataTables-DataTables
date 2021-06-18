@@ -4,22 +4,22 @@
     "main": "js/dataTables.dataTables.js",
     "style": "css/jquery.dataTables.css",
     "types": "./types/dataTables.dataTables.d.ts",
-    "version": "1.10.25",
+    "version": "1.10.26-dev",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
         "images/*"
     ],
     "keywords": [
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net": "1.10.25"
+        "datatables.net": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
