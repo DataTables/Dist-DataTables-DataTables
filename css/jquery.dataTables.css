@@ -267,7 +267,6 @@ table.dataTable.compact tbody td {
   padding: 4px;
 }
 
-table.dataTable,
 table.dataTable th,
 table.dataTable td {
   box-sizing: content-box;
