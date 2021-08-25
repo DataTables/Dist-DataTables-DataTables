@@ -8,10 +8,11 @@
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "types/**/*.d.ts",
         "images/*"
     ],
     "keywords": [
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
