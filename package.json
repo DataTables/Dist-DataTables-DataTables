@@ -12,14 +12,14 @@
         "images/*"
     ],
     "keywords": [
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net": ">=1.10.25",
+        "datatables.net": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
