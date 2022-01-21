@@ -4,7 +4,7 @@
     "main": "js/dataTables.dataTables.js",
     "style": "css/jquery.dataTables.css",
     "types": "./types/dataTables.dataTables.d.ts",
-    "version": "1.11.3",
+    "version": "1.11.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,7 +12,7 @@
         "images/*"
     ],
     "keywords": [
-                "Datatables",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
