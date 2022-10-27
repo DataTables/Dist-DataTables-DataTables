@@ -10,7 +10,8 @@
         "css/jquery.dataTables.min.css"
     ],
     "types": [
-        "types/dataTables.dataTables.d.ts"
+        "types/dataTables.dataTables.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/DataTablesSrc",
     "last-tag": "1.12.1"
