@@ -455,12 +455,20 @@ table.dataTable td {
   text-align: center;
   text-decoration: none !important;
   cursor: pointer;
+<<<<<<< HEAD
   color: inherit !important;
+=======
+  color: #333 !important;
+>>>>>>> 433a4f0b4f5248bd3c174351904287959cb57a49
   border: 1px solid transparent;
   border-radius: 2px;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+<<<<<<< HEAD
   color: inherit !important;
+=======
+  color: #333 !important;
+>>>>>>> 433a4f0b4f5248bd3c174351904287959cb57a49
   border: 1px solid rgba(0, 0, 0, 0.3);
   background-color: rgba(230, 230, 230, 0.1);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(230, 230, 230, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)));
