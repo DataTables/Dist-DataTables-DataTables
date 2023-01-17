@@ -454,6 +454,7 @@ table.dataTable td {
   color: inherit !important;
   border: 1px solid transparent;
   border-radius: 2px;
+  background: transparent;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: inherit !important;
