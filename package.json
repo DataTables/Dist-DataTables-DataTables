@@ -5,7 +5,7 @@
     "module": "js/dataTables.dataTables.mjs",
     "style": "css/jquery.dataTables.css",
     "types": "./types/types.d.ts",
-    "version": "1.13.2",
+    "version": "1.13.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
