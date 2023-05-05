@@ -602,3 +602,60 @@ table.dataTable td {
     margin-top: 0.5em;
   }
 }
+html.dark table.dataTable thead th,
+html.dark table.dataTable thead td {
+  border-bottom: 1px solid #595b5e;
+}
+html.dark table.dataTable thead th:active,
+html.dark table.dataTable thead td:active {
+  outline: none;
+}
+html.dark table.dataTable tfoot th,
+html.dark table.dataTable tfoot td {
+  border-top: 1px solid #595b5e;
+}
+html.dark table.dataTable.row-border tbody th, html.dark table.dataTable.row-border tbody td, html.dark table.dataTable.display tbody th, html.dark table.dataTable.display tbody td {
+  border-top: 1px solid #404346;
+}
+html.dark table.dataTable.cell-border tbody th, html.dark table.dataTable.cell-border tbody td {
+  border-top: 1px solid #404346;
+  border-right: 1px solid #404346;
+}
+html.dark table.dataTable.cell-border tbody tr th:first-child,
+html.dark table.dataTable.cell-border tbody tr td:first-child {
+  border-left: 1px solid #404346;
+}
+html.dark .dataTables_wrapper .dataTables_filter input,
+html.dark .dataTables_wrapper .dataTables_length select {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) table.dataTable thead th,
+:root:not(.light) table.dataTable thead td {
+    border-bottom: 1px solid #595b5e;
+  }
+  :root:not(.light) table.dataTable thead th:active,
+:root:not(.light) table.dataTable thead td:active {
+    outline: none;
+  }
+  :root:not(.light) table.dataTable tfoot th,
+:root:not(.light) table.dataTable tfoot td {
+    border-top: 1px solid #595b5e;
+  }
+  :root:not(.light) table.dataTable.row-border tbody th, :root:not(.light) table.dataTable.row-border tbody td, :root:not(.light) table.dataTable.display tbody th, :root:not(.light) table.dataTable.display tbody td {
+    border-top: 1px solid #404346;
+  }
+  :root:not(.light) table.dataTable.cell-border tbody th, :root:not(.light) table.dataTable.cell-border tbody td {
+    border-top: 1px solid #404346;
+    border-right: 1px solid #404346;
+  }
+  :root:not(.light) table.dataTable.cell-border tbody tr th:first-child,
+:root:not(.light) table.dataTable.cell-border tbody tr td:first-child {
+    border-left: 1px solid #404346;
+  }
+  :root:not(.light) .dataTables_wrapper .dataTables_filter input,
+:root:not(.light) .dataTables_wrapper .dataTables_length select {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
