@@ -3,7 +3,7 @@
   --dt-row-selected: 13, 110, 253;
   --dt-row-selected-text: 255, 255, 255;
   --dt-row-selected-link: 9, 10, 11;
-  --dt-row-stripe: 0, 0, 0, 0.023;
+  --dt-row-stripe: 0, 0, 0;
   --dt-row-hover: 0, 0, 0;
   --dt-column-ordering: 0, 0, 0;
 }
@@ -324,7 +324,7 @@ table.dataTable.cell-border tbody tr:first-child td {
 }
 table.dataTable.stripe > tbody > tr.odd > *, table.dataTable.display > tbody > tr.odd > * {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.023);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-stripe));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-stripe), 0.023);
 }
 table.dataTable.stripe > tbody > tr.odd.selected > *, table.dataTable.display > tbody > tr.odd.selected > * {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.923);
@@ -619,7 +619,7 @@ table.dataTable td {
 }
 html.dark {
   --dt-row-hover: 255, 255, 255;
-  --dt-row-stripe: 255, 255, 255, 0.023;
+  --dt-row-stripe: 255, 255, 255;
   --dt-column-ordering: 255, 255, 255;
 }
 html.dark table.dataTable thead th,
@@ -653,7 +653,7 @@ html.dark .dataTables_wrapper .dataTables_length select {
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
     --dt-row-hover: 255, 255, 255;
-    --dt-row-stripe: 255, 255, 255, 0.023;
+    --dt-row-stripe: 255, 255, 255;
     --dt-column-ordering: 255, 255, 255;
   }
   :root:not(.light) table.dataTable thead th,
