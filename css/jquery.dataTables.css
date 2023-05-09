@@ -3,6 +3,9 @@
   --dt-row-selected: 13, 110, 253;
   --dt-row-selected-text: 255, 255, 255;
   --dt-row-selected-link: 9, 10, 11;
+  --dt-row-stripe: 0, 0, 0, 0.023;
+  --dt-row-hover: 0, 0, 0;
+  --dt-column-ordering: 0, 0, 0;
 }
 
 table.dataTable td.dt-control {
@@ -321,17 +324,19 @@ table.dataTable.cell-border tbody tr:first-child td {
 }
 table.dataTable.stripe > tbody > tr.odd > *, table.dataTable.display > tbody > tr.odd > * {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.023);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-stripe));
 }
 table.dataTable.stripe > tbody > tr.odd.selected > *, table.dataTable.display > tbody > tr.odd.selected > * {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.923);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.923));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.923);
 }
 table.dataTable.hover > tbody > tr:hover > *, table.dataTable.display > tbody > tr:hover > * {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.035);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.035);
 }
 table.dataTable.hover > tbody > tr.selected:hover > *, table.dataTable.display > tbody > tr.selected:hover > * {
   box-shadow: inset 0 0 0 9999px #0d6efd !important;
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 1)) !important;
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 1) !important;
 }
 table.dataTable.order-column > tbody tr > .sorting_1,
 table.dataTable.order-column > tbody tr > .sorting_2,
@@ -339,6 +344,7 @@ table.dataTable.order-column > tbody tr > .sorting_3, table.dataTable.display > 
 table.dataTable.display > tbody tr > .sorting_2,
 table.dataTable.display > tbody tr > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.019);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-column-ordering), 0.019);
 }
 table.dataTable.order-column > tbody tr.selected > .sorting_1,
 table.dataTable.order-column > tbody tr.selected > .sorting_2,
@@ -346,70 +352,79 @@ table.dataTable.order-column > tbody tr.selected > .sorting_3, table.dataTable.d
 table.dataTable.display > tbody tr.selected > .sorting_2,
 table.dataTable.display > tbody tr.selected > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.919);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.919));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.919);
 }
 table.dataTable.display > tbody > tr.odd > .sorting_1, table.dataTable.order-column.stripe > tbody > tr.odd > .sorting_1 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.054);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-column-ordering), 0.054);
 }
 table.dataTable.display > tbody > tr.odd > .sorting_2, table.dataTable.order-column.stripe > tbody > tr.odd > .sorting_2 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.047);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-column-ordering), 0.047);
 }
 table.dataTable.display > tbody > tr.odd > .sorting_3, table.dataTable.order-column.stripe > tbody > tr.odd > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.039);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-column-ordering), 0.039);
 }
 table.dataTable.display > tbody > tr.odd.selected > .sorting_1, table.dataTable.order-column.stripe > tbody > tr.odd.selected > .sorting_1 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.954);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.954));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.954);
 }
 table.dataTable.display > tbody > tr.odd.selected > .sorting_2, table.dataTable.order-column.stripe > tbody > tr.odd.selected > .sorting_2 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.947);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.947));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.947);
 }
 table.dataTable.display > tbody > tr.odd.selected > .sorting_3, table.dataTable.order-column.stripe > tbody > tr.odd.selected > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.939);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.939));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.939);
 }
 table.dataTable.display > tbody > tr.even > .sorting_1, table.dataTable.order-column.stripe > tbody > tr.even > .sorting_1 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.019);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.019);
 }
 table.dataTable.display > tbody > tr.even > .sorting_2, table.dataTable.order-column.stripe > tbody > tr.even > .sorting_2 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.011);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.011);
 }
 table.dataTable.display > tbody > tr.even > .sorting_3, table.dataTable.order-column.stripe > tbody > tr.even > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.003);
 }
 table.dataTable.display > tbody > tr.even.selected > .sorting_1, table.dataTable.order-column.stripe > tbody > tr.even.selected > .sorting_1 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.919);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.919));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.919);
 }
 table.dataTable.display > tbody > tr.even.selected > .sorting_2, table.dataTable.order-column.stripe > tbody > tr.even.selected > .sorting_2 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.911);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.911));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.911);
 }
 table.dataTable.display > tbody > tr.even.selected > .sorting_3, table.dataTable.order-column.stripe > tbody > tr.even.selected > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.903);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.903));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.903);
 }
 table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_1 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.082);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.082);
 }
 table.dataTable.display tbody tr:hover > .sorting_2, table.dataTable.order-column.hover tbody tr:hover > .sorting_2 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.074);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.074);
 }
 table.dataTable.display tbody tr:hover > .sorting_3, table.dataTable.order-column.hover tbody tr:hover > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.062);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.062);
 }
 table.dataTable.display tbody tr:hover.selected > .sorting_1, table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_1 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.982);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.982));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.982);
 }
 table.dataTable.display tbody tr:hover.selected > .sorting_2, table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_2 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.974);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.974));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.974);
 }
 table.dataTable.display tbody tr:hover.selected > .sorting_3, table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_3 {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.962);
-  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected, 0.962));
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.962);
 }
 table.dataTable.no-footer {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -602,6 +617,11 @@ table.dataTable td {
     margin-top: 0.5em;
   }
 }
+html.dark {
+  --dt-row-hover: 255, 255, 255;
+  --dt-row-stripe: 255, 255, 255, 0.023;
+  --dt-column-ordering: 255, 255, 255;
+}
 html.dark table.dataTable thead th,
 html.dark table.dataTable thead td {
   border-bottom: 1px solid #595b5e;
@@ -631,6 +651,11 @@ html.dark .dataTables_wrapper .dataTables_length select {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --dt-row-hover: 255, 255, 255;
+    --dt-row-stripe: 255, 255, 255, 0.023;
+    --dt-column-ordering: 255, 255, 255;
+  }
   :root:not(.light) table.dataTable thead th,
 :root:not(.light) table.dataTable thead td {
     border-bottom: 1px solid #595b5e;
