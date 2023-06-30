@@ -4,7 +4,7 @@
     "main": "js/dataTables.dataTables.js",
     "module": "js/dataTables.dataTables.mjs",
     "style": "css/jquery.dataTables.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/dataTables.dataTables.d.ts",
     "version": "1.13.4",
     "files": [
         "css/**/*.css",
@@ -14,14 +14,14 @@
         "images/*"
     ],
     "keywords": [
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net": ">=1.12.1",
+        "datatables.net": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
