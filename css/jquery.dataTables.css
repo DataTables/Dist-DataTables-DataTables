@@ -312,7 +312,8 @@ table.dataTable.display > tbody > tr:first-child > td {
   border-top: none;
 }
 table.dataTable.row-border > tbody > tr.selected + tr.selected > td, table.dataTable.display > tbody > tr.selected + tr.selected > td {
-  border-top-color: #0262ef;
+  border-top-color: rgba(13, 110, 253, 0.65);
+  border-top-color: rgba(var(--dt-row-selected), 0.65);
 }
 table.dataTable.cell-border > tbody > tr > th,
 table.dataTable.cell-border > tbody > tr > td {
@@ -645,7 +646,8 @@ html.dark table.dataTable.display > tbody > tr > td {
   border-top: 1px solid #404346;
 }
 html.dark table.dataTable.row-border > tbody > tr.selected + tr.selected > td, html.dark table.dataTable.display > tbody > tr.selected + tr.selected > td {
-  border-top-color: #0257d5;
+  border-top-color: rgba(13, 110, 253, 0.65);
+  border-top-color: rgba(var(--dt-row-selected), 0.65);
 }
 html.dark table.dataTable.cell-border > tbody > tr > th,
 html.dark table.dataTable.cell-border > tbody > tr > td {
