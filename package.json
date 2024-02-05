@@ -3,7 +3,7 @@
     "description": "DataTables for jQuery with styling for [DataTables](https://datatables.net/)",
     "main": "js/dataTables.dataTables.js",
     "module": "js/dataTables.dataTables.mjs",
-    "style": "css/jquery.dataTables.css",
+    "style": "css/dataTables.dataTables.css",
     "types": "./types/dataTables.dataTables.d.ts",
     "version": "1.13.8",
     "files": [
