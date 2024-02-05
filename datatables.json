@@ -6,8 +6,8 @@
         "js/dataTables.dataTables.mjs"
     ],
     "css": [
-        "css/jquery.dataTables.css",
-        "css/jquery.dataTables.min.css"
+        "css/dataTables.dataTables.css",
+        "css/dataTables.dataTables.min.css"
     ],
     "types": [
         "types/dataTables.dataTables.d.ts"
