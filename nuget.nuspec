@@ -21,10 +21,10 @@
         <file src="js/dataTables.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/dataTables.dataTables.min.js" target="content\Scripts"/>
         <file src="js/dataTables.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
-        <file src="css/jquery.dataTables.css" target="content\Content"/>
-        <file src="css/jquery.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="css/jquery.dataTables.min.css" target="content\Content"/>
-        <file src="css/jquery.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/dataTables.dataTables.css" target="content\Content"/>
+        <file src="css/dataTables.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/dataTables.dataTables.min.css" target="content\Content"/>
+        <file src="css/dataTables.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
     </files>
 </package>
 
