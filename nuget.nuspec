@@ -10,7 +10,7 @@
         <license type="expression">MIT</license>
         <tags> Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net" version="1.12.1"/>
+            <dependency id="datatables.net" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -21,6 +21,10 @@
         <file src="js/dataTables.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/dataTables.dataTables.min.js" target="content\Scripts"/>
         <file src="js/dataTables.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/dataTables.dataTables.min.mjs" target="content\Scripts"/>
+        <file src="js/dataTables.dataTables.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/dataTables.dataTables.mjs" target="content\Scripts"/>
+        <file src="js/dataTables.dataTables.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/dataTables.dataTables.css" target="content\Content"/>
         <file src="css/dataTables.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/dataTables.dataTables.min.css" target="content\Content"/>
