@@ -738,23 +738,6 @@ div.dt-container .dt-processing,
 div.dt-container .dt-paging {
   color: inherit;
 }
-div.dt-container .dataTables_scroll {
-  clear: both;
-}
-div.dt-container .dataTables_scroll div.dt-scroll-body {
-  -webkit-overflow-scrolling: touch;
-}
-div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > th, div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > td, div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > th, div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > td {
-  vertical-align: middle;
-}
-div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > th > div.dataTables_sizing,
-div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > td > div.dataTables_sizing, div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > th > div.dataTables_sizing,
-div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > td > div.dataTables_sizing {
-  height: 0;
-  overflow: hidden;
-  margin: 0 !important;
-  padding: 0 !important;
-}
 div.dt-container.dt-empty-footer tbody > tr:last-child > * {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
