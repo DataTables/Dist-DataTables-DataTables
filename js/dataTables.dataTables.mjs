@@ -1,14 +1,10 @@
-/*! DataTables styling integration
+/*! DataTables styling integration 3.0.0-beta.2
  * © SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
-import DataTable from 'datatables.net';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
-
+import DataTable, {Api, Dom, util} from 'datatables.net';
 
 
 
 export default DataTable;
+export { Api, DataTable, Dom, util };
