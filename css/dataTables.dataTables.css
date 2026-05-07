@@ -428,9 +428,6 @@ table.dataTable {
   /*
    * Header and footer styles
    */
-  /*
-   * Body styles
-   */
 }
 table.dataTable thead th,
 table.dataTable tfoot th {
@@ -449,6 +446,11 @@ table.dataTable > tfoot > tr > th,
 table.dataTable > tfoot > tr > td {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   padding: 10px 10px 6px 10px;
+}
+table.dataTable {
+  /*
+   * Body styles
+   */
 }
 table.dataTable > tbody > tr {
   background-color: transparent;
