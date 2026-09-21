@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-dt",
-    "description": "DataTables with styling for [DataTables](https://datatables.net/)",
+    "description": "DataTables with styling for DataTables",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-DataTables"
