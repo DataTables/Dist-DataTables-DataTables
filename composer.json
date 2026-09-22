@@ -23,6 +23,6 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net": "3.0.2"
+        "datatables.net/datatables.net": "3.1.0"
     }
 }
